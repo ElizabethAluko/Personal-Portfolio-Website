@@ -12,7 +12,7 @@ body {
         padding: 0;
         height: 100%;
         background-color: #13265C;
-	overflow: hidden;
+	overflow: auto;
 }
 
 header {
