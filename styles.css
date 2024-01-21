@@ -33,7 +33,7 @@ header {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: auto;
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -49,7 +49,7 @@ header {
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
-    float: right;
+    float: left;
     display: block;
   }
 }
@@ -75,8 +75,11 @@ h2 {
 
 #home {
 	width: 100%;
-	height: 100%;
+	height: 70%;
 	margin: 0;
+	padding: 15px;
+	border-radius: 0;
+	background-color: #0C243C;
 }
 
 div {
@@ -94,6 +97,7 @@ div {
   position: absolute;
   border-radius: 100%;
   opacity: 0.7;
+  z-index: 9999;
 }
 
 footer {
