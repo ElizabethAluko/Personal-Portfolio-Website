@@ -40,9 +40,16 @@ balls.forEach((el, i, ra) => {
   );
 });
 
-
 document.getElementById('menu-icon').addEventListener('click', function () {
-            var nav = document.querySelector('nav');
-            nav.classList.toggle('active');
-            this.innerHTML = nav.classList.contains('active') ? '&#10006;' : '&#9776;';
+        var nav = document.querySelector('nav');
+        nav.classList.toggle('active');
+        this.innerHTML = nav.classList.contains('active') ? '&#10006;' : '&#9776;';
+    });
+
+    // Close the menu if a menu item is clicked
+    document.querySelectorAll('nav a').forEach(function (item) {
+        item.addEventListener('click', function () {
+            document.querySelector('nav').classList.remove('active');
+            document.getElementById('menu-icon').innerHTML = '&#9776;';
+        });
 });
