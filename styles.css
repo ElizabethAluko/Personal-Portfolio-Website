@@ -26,7 +26,6 @@ header {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
 }
 
 .topnav a {
@@ -34,14 +33,13 @@ header {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: auto;
   text-decoration: none;
   font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  color: grey;
 }
 
 .topnav .icon {
@@ -73,6 +71,12 @@ header {
 
 h2 {
 	text-align: center;
+}
+
+#home {
+	width: 100%;
+	height: 100%;
+	margin: 0;
 }
 
 div {
