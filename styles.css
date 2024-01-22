@@ -27,48 +27,6 @@ header {
 	border-bottom: 5px solid yellow;
 }
 
-#menu-icon {
-            display: none; /* Hide initially on larger screens */
-            cursor: pointer;
-}
-
-nav {
-        display: flex;
-        align-items: center;
-}
-
-nav a {
-        color: #fff;
-        text-decoration: none;
-        margin: 0 15px;
-}
-
-/* Media query for mobile responsiveness */
-@media (max-width: 768px) {
-        #menu-icon {
-                display: block; /* Show on smaller screens */
-        }
-
-nav {
-        display: none; /* Hide initially on smaller screens */
-        flex-direction: column;
-        position: absolute;
-        top: 60px; /* Adjust as needed based on your header height */
-        left: 0;
-        right: 0;
-        background-color: #333;
-        text-align: center;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-nav a {
-        display: block;
-        padding: 10px;
-}
-
-nav.active {
-        display: flex;
-}
 
 h2 {
 	text-align: center;
