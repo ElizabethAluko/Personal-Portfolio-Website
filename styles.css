@@ -41,7 +41,7 @@ header {
         padding: 10px;
 	width: 100%;
     	background-color: #13265C;
-    	color: yellow;
+    	color: white;
     	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -52,7 +52,9 @@ header {
 a {
 
 	text-decoration: none;
-	padding: 5px;
+	padding: 10px 0;
+	margin 0;
+
 }
 
 
@@ -73,12 +75,13 @@ h2 {
 
 div {
 	height: 40%;
-	width: 80%;
+	width: 85%;
 	margin: 40px auto;
 	padding: 5px;
 	color: white;
 	background-color: #13265C;
 	border-radius: 10%;
+	margin-bottom: 10px;
 }
 
 .ball {
@@ -101,4 +104,7 @@ footer {
 footer ul {
         color: white;
 	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 10px 0;
 }
