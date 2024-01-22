@@ -21,7 +21,7 @@ header {
         font-size: 1em;
         width: 100%;
 	padding: 15px;
-	border-bottom: 4px solid yellow;
+	border-bottom: 3px solid yellow;
 	position: relative;
 }
 
@@ -35,16 +35,14 @@ header {
 #menu {
     	display: none;
     	position: relative;
-    	/*top: 100%;*/
-    	/* right: 0; */
+	text-align: center;
 	list-style-type: none;
         margin: 0;
-        padding: auto;
+        padding: 10px;
         text-decoration: none;
 	width: 100%;
     	background-color: #13265C;
     	color: yellow;
-    	/* padding: 10px;*/
     	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -97,9 +95,9 @@ footer {
         padding:20px;
         font-size: 0.8em;
         color: white;
-	border-top: 4px solid yellow;
+	border-top: 3px solid yellow;
 }
-footer a {
+footer a, li {
         text-decoration: none;
         color: white;
 }
