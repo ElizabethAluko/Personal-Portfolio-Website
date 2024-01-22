@@ -20,11 +20,23 @@ header {
         color: #1E90FF;
         font-size: 1em;
         width: 100%;
-	padding: 15px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+	padding: 5px;
 	border-bottom: 5px solid yellow;
+}
+
+#menu-icon {
+	position: absolute;
+	right: 0;
+	padding: 2px;
+}
+
+nav {
+	display: none;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 5px;
 }
 
 
@@ -65,7 +77,7 @@ footer {
         width:100%;
         text-align: center;
         padding:20px;
-        font-size: 0.3em;
+        font-size: 0.8em;
         color: white;
 }
 footer a {
