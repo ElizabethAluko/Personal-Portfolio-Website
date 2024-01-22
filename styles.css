@@ -35,11 +35,16 @@ header {
 #menu {
     	display: none;
     	position: relative;
-    	top: 100%;
-    	right: 0;
-    	background-color: #333;
+    	/*top: 100%;*/
+    	/* right: 0; */
+	list-style-type: none;
+        margin: 0;
+        padding: auto;
+        text-decoration: none;
+	width: 100%;
+    	background-color: #13265C;
     	color: yellow;
-    	padding: 10px;
+    	/* padding: 10px;*/
     	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -97,8 +102,4 @@ footer {
 footer a {
         text-decoration: none;
         color: white;
-}
-
-ul {
-	list-style-type: none;
 }
