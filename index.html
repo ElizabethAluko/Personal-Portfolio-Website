@@ -11,21 +11,13 @@
 		portfolio project AWS machine learning engineer process engineer technical writer">
 		<link rel="stylesheet" href="styles.css">
 		<script src="script.js"></script>
-		<script>
-			document.getElementById('menu-icon').addEventListener('click', function () {
-    			var menu = document.getElementById('menu');
-    			menu.classList.toggle('active');
-    			this.innerHTML = menu.classList.contains('active') ? '&#10006;' : '&#9776;';
-			});
-
-		</script>
 	</head>
 
 	<body class="ball">
 		<header>
 
 			<span>Elizabeth</span>
-			<span id="menu-icon">&#9776;</span>
+			<span id="menu-icon" onclick="toggleMenu()">&#9776;</span>
 			<div id="menu">
 			<a href="#about">About</a>
   			<a href="#skills">Skills</a>
