@@ -21,13 +21,13 @@ header {
         font-size: 1em;
         width: 100%;
 	padding: 15px;
-	border-bottom: 5px solid yellow;
+	border-bottom: 4px solid yellow;
 	position: relative;
 }
 
 #menu-icon {
 	position: absolute;
-	right: 0;
+	right: 5px;
 	padding: 5px;
     	cursor: pointer;
 }
@@ -92,8 +92,13 @@ footer {
         padding:20px;
         font-size: 0.8em;
         color: white;
+	border-top: 4px solid yellow;
 }
 footer a {
         text-decoration: none;
         color: white;
+}
+
+ul {
+	list-style-type: none;
 }
