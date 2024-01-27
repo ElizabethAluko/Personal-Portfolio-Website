@@ -32,17 +32,20 @@ header {
     	cursor: pointer;
 }
 
-ul.menu {
+ul .menu{
     	display: none;
     	position: relative;
 	text-align: center;
-	list-style-type: none;
-        margin: 0;
-        padding: 0;
 	width: 100%;
     	background-color: #13265C;
     	color: white;
     	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+        /*padding: 0;*/
 }
 
 ul li {
@@ -78,11 +81,11 @@ h2 {
 }
 
 div {
-	height: 40%;
 	width: 85%;
 	margin: 20px auto;
 	padding: 5px;
 	color: white;
+	font-size: 0.5em;
 	background-color: #13265C;
 	border-radius: 10%;
 }
