@@ -81,8 +81,8 @@ h2 {
 	padding: 15px;
 	border-radius: 0;
 	background-color: #0C243C;
-	/*background-image: url('images/laptop-5673901_1280.jpg');*/
-	/* background-size: cover; */
+	background-image: url('images/laptop-5673901_1280.jpg');
+	background-size: cover;
 }
 
 div {
@@ -116,7 +116,7 @@ footer {
 
 .typed {
   overflow: hidden;
-  white-space: nowrap;
+  /*white-space: nowrap;*/
   width: 0;
   animation: typing;
   animation-duration: 1.5s;
