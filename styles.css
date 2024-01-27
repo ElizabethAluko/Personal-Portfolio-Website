@@ -80,7 +80,7 @@ h2 {
 	margin: 0;
 	padding: 15px;
 	background-color: #0C243C;
-	background-image: url('laptop-5673901_1280.jpg')
+	background-image: url('images/laptop-5673901_1280.jpg');
 }
 
 div {
@@ -110,4 +110,19 @@ footer {
         font-size: 0.8em;
         color: white;
 	border-top: 3px solid yellow;
+}
+
+.typed {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
