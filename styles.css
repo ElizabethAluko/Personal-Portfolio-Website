@@ -28,7 +28,7 @@ header {
 #menu-icon {
 	position: absolute;
 	right: 5px;
-	/* padding: 5px; */
+	padding: 5px;
     	cursor: pointer;
 }
 
@@ -39,6 +39,7 @@ header {
 	width: 100%;
     	background-color: #13265C;
     	color: white;
+	padding: 10px;
     	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -78,18 +79,19 @@ h2 {
 	height: 100%;
 	margin: 0;
 	padding: 15px;
-	border-radius: 0;
 	background-color: #0C243C;
+	background-image: url('laptop-5673901_1280.jpg')
 }
 
 div {
-	width: 85%;
-	margin: 20px auto;
+	width: 90%;
+	margin: 10px auto;
 	padding: 10px;
 	color: white;
-	font-size: 0.9em;
+	font-size: 0.6em;
 	background-color: #13265C;
-	border-radius: 15%;
+	border-radius: 10%;
+	text-align: justify;
 }
 
 .ball {
