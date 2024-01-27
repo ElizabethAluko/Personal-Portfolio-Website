@@ -79,9 +79,10 @@ h2 {
 	height: 100%;
 	margin: 0;
 	padding: 15px;
+	border-radius: 0;
 	background-color: #0C243C;
 	background-image: url('images/laptop-5673901_1280.jpg');
-	background-size: 100% 100%;
+	background-size: cover;
 }
 
 div {
