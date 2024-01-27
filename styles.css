@@ -32,7 +32,7 @@ header {
     	cursor: pointer;
 }
 
-.menu{
+#menu{
     	display: none;
     	position: relative;
 	text-align: center;
@@ -45,34 +45,32 @@ header {
 ul {
 	list-style-type: none;
 	margin: 0;
-        /*padding: 0;*/
+        padding: 0;
 }
 
 ul li {
 	margin: 10px;
 }
 
-.menu.active {
+#menu.active {
     	display: block;
 }
 
 a {
 
 	text-decoration: none;
-	padding: 20px 0;
-	margin 0;
 	color: white;
 }
 
 img {
-	width: 32px;
-	height: 32px;
+	width: 64px;
+	height: 64px;
+	margin: 10px;
 }
 
 h2 {
 	text-align: center;
 	color: white;
-	margin-top: 30px;
 }
 
 #home {
@@ -87,11 +85,11 @@ h2 {
 div {
 	width: 85%;
 	margin: 20px auto;
-	padding: 5px;
+	padding: 10px;
 	color: white;
-	font-size: 0.5em;
+	font-size: 0.9em;
 	background-color: #13265C;
-	border-radius: 10%;
+	border-radius: 15%;
 }
 
 .ball {
