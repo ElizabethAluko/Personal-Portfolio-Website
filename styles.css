@@ -72,6 +72,8 @@ a {
 .profilepix {
 	border-radius: 50%;
 	max-width: 100%;
+	width: 50%;
+	height: 50%;
 }
 
 h2 {
