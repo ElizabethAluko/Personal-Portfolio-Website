@@ -63,10 +63,15 @@ a {
 	color: white;
 }
 
-img {
+.skillicon {
 	width: 64px;
 	height: 64px;
 	margin: 10px;
+}
+
+.profilepix {
+	border-radius: 50%;
+	max-width: 100%;
 }
 
 h2 {
@@ -114,7 +119,8 @@ footer {
   cursor: pointer;
   text-align: center;
   margin: auto;
-  position: bottom;
+  position: absolute;
+  bottom: 0;
   text-decoration: none;
   outline: none;
   color: #fff;
