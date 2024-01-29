@@ -120,9 +120,10 @@ footer {
   font-size: 20px;
   cursor: pointer;
   text-align: center;
+  width: 200px;
   margin: auto;
   position: absolute;
-  bottom: 0;
+  bottom: 5px;
   text-decoration: none;
   outline: none;
   color: #fff;
