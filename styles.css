@@ -113,7 +113,7 @@ footer {
 }
 
 .button {
-  display: inline-block;
+  display: block;
   padding: 10px 18px;
   font-size: 20px;
   cursor: pointer;
@@ -124,15 +124,15 @@ footer {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: yellow;
+  background-color: black;
   border: none;
   border-radius: 12px;
-  box-shadow: 0 5px #13265C;
+  box-shadow: 0 4px #13265C;
 }
 
 .button:hover {background-color: grey}
 
 .button:active {
-  box-shadow: 0 5px #666;
+  box-shadow: 0 4px #666;
   transform: translateY(3px);
 }
