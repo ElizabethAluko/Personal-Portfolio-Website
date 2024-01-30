@@ -8,7 +8,10 @@ html {
 }
 
 body {
-        margin: 0;
+        display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
         padding: 0;
         height: 100%;
         background-color: #0C243C;
@@ -35,7 +38,7 @@ header {
 #menu{
     	display: none;
     	position: relative;
-	text-align: center;
+	text-align: left;
 	width: 100%;
     	background-color: #13265C;
     	color: white;
@@ -82,6 +85,9 @@ h2 {
 }
 
 #home {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	position: relative;
 	width: 100%;
 	height: 90%;
