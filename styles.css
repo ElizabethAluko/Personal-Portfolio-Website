@@ -72,14 +72,24 @@ a {
 
 .profilepix {
 	max-width: 100%;
-	width: 90%;
-	height: 100%;
+	width: 70%;
+	height: 70%;
 	margin: auto;
 }
 
 h2 {
 	text-align: center;
 	color: white;
+}
+
+h3 {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+h3 + img {
+	height: 20%;
 }
 
 #home {
