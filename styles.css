@@ -13,6 +13,7 @@ body {
         height: 100%;
         background-color: #0C243C;
 	overflow: auto;
+	line-height: 1.6;
 }
 
 header {
@@ -71,8 +72,8 @@ a {
 
 .profilepix {
 	max-width: 100%;
-	width: 60%;
-	height: 50%;
+	width: 90%;
+	height: 100%;
 	margin: auto;
 }
 
@@ -90,6 +91,7 @@ h2 {
 	height: 90%;
 	margin: 0;
 	padding: 15px;
+	line-height: 1.7;
 	text-align: left;
 	border-radius: 0;
 	background: #0C243C url('images/laptop-5673901_1280.jpg');
@@ -125,16 +127,13 @@ footer {
   cursor: pointer;
   text-align: center;
   width: 200px;
-  margin: auto;
-  position: absolute;
-  bottom: 5px;
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: black;
+  background-color: #13265C;
   border: none;
   border-radius: 12px;
-  box-shadow: 0 4px #13265C;
+  box-shadow: 0 4px black;
 }
 
 .button:hover {background-color: grey}
@@ -142,4 +141,8 @@ footer {
 .button:active {
   box-shadow: 0 4px #666;
   transform: translateY(3px);
+}
+
+img {
+	width: 100%;
 }
