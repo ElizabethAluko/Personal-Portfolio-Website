@@ -74,6 +74,7 @@ a {
 	max-width: 100%;
 	height: 70%;
 	width: 70%;
+	border: 2px solid yellow;
 	border-radius: 50%;
 	margin: auto;
 }
@@ -81,6 +82,11 @@ a {
 h2 {
 	text-align: center;
 	color: white;
+}
+
+h2 + p {
+	color: white;
+	padding: 0 10px;
 }
 
 h3 {
@@ -161,4 +167,10 @@ footer {
 
 img {
 	width: 100%;
+}
+
+.fa-brands {
+	display: inline-block;
+	padding: 10px;
+	margin: 15px;
 }
