@@ -9,6 +9,7 @@ html {
 
 main {
 	max-width: 1200px;
+	height: 100%;
 	margin: auto;
 }
 body {
