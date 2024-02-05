@@ -150,7 +150,7 @@ footer {
   	cursor: pointer;
   	text-align: center;
   	width: 200px;
-	margin: 0 50px;
+	margin: 0 65px;
   	text-decoration: none;
   	outline: none;
   	color: #fff;
@@ -172,7 +172,6 @@ img {
 }
 
 .fa-brands {
-	margin: 10px;
-	width: 64px;
-	height: 64px;
+	margin: 5px;
+	font-size: 1.2em;
 }
