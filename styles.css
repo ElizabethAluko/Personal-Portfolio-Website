@@ -101,20 +101,22 @@ h3 + img {
 	display: block;
 	border-radius: 5%;
 	margin: auto;
-	width: 75%;
+	width: 80%;
 }
 
-h3 + a:first-of-type {
+h3 + img + p + p + a {
   	position: absolute;
   	left: 15px;
+	color: yellow;
 }
 
-h3 + a:last-of-type {
+h3 + img + p + p + a:last-of-type {
   	position: absolute;
   	right: 15px;
+	color: yellow;
 }
 
-#home {
+div#home {
 	position: relative;
 	width: 100%;
 	height: 100%;
