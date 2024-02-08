@@ -109,6 +109,7 @@ h3 + img {
 h3 + img + p + p + a {
   	position: absolute;
 	margin: 25px auto;
+	padding: 25px;
   	left: 25px;
 	bottom: 25px;
 	display: inline-block;
@@ -117,7 +118,8 @@ h3 + img + p + p + a {
 
 h3 + img + p + p + a + a {
   	position: absolute;
-	margin: 25px;
+	margin: 25px auto;
+	padding: 25px;
   	right: 25px;
 	bottom: 25px;
 	display: inline-block;
@@ -136,10 +138,15 @@ div#home {
 }
 
 div.homecontent {
+	position: absolute;
 	line-height: 1.7;
         text-align: left;
 	border-radius: 0;
 	padding: 15px;
+	height: 85%;
+	width: 100%;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.7);
 }
 
 div#home::before {
@@ -204,7 +211,7 @@ input[type=submit]:hover {
 
 footer {
         bottom: 0;
-        left: 0;                                                          background-color: #0C243C;
+        left: 0;                                             background-color: #0C243C;
         width:100%;
         text-align: center;
         padding:20px;
