@@ -108,32 +108,34 @@ h3 + img {
 
 h3 + img + p + p + a {
   	position: absolute;
+	margin: 25px auto;
   	left: 25px;
-	bottom: 10px;
+	bottom: 25px;
 	display: inline-block;
 	color: yellow;
 }
 
 h3 + img + p + p + a + a {
   	position: absolute;
+	margin: 25px;
   	right: 25px;
-	bottom: 10px;
+	bottom: 25px;
 	display: inline-block;
 	color: yellow;
 }
 
 div#home {
 	position: relative;
-	height: 80%;
+	height: 90%;
 	width: 100%;
 	margin: 0;
 	padding: 15px;
 	line-height: 1.7;
 	text-align: left;
 	border-radius: 0;
-	background-color: rgba(0, 0, 50, 0.5);
 	background: #0C243C url('images/laptop-5673901_1280.jpg');
 	background-size: cover;
+	filter: brightness(0.7);
 }
 
 div {
@@ -245,10 +247,10 @@ img {
 .service-list li {
     margin-bottom: 10px;
     font-size: 18px;
-    color: #333;
+    color: white;
 }
 
 .service-list li i {
     margin-right: 10px;
-    color: #007bff; /* Adjust icon color as needed */
+    color:yellow;
 }
