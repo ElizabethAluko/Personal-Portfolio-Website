@@ -9,9 +9,9 @@ html {
 body {
 	margin: 0;
         padding: 0;
-        /*height: 100%;*/
+        height: 100%;
         background-color: #0C243C;
-	/*overflow: auto;*/
+	overflow: auto;
 	line-height: 1.6;
 }
 
@@ -107,19 +107,21 @@ h3 + img {
 h3 + img + p + p + a {
   	position: absolute;
   	left: 15px;
+	display: inline-block;
 	color: yellow;
 }
 
 h3 + img + p + p + a:last-of-type {
   	position: absolute;
   	right: 15px;
+	display: inline-block;
 	color: yellow;
 }
 
 div#home {
 	position: relative;
-	width: 100%;
 	height: 100%;
+	width: 100%;
 	margin: 0;
 	padding: 15px;
 	line-height: 1.7;
